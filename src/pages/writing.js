@@ -25,7 +25,7 @@ export function renderWriting() {
         </li>
       <li>
           <span class="post-date">2024-01-28:</span>
-         <a href=https://medium.com/@anna-yutong-zhang/activation-energy-5ebaf503fe62" target="_blank">Activation Energy</a>
+         <a href="https://medium.com/@anna-yutong-zhang/activation-energy-5ebaf503fe62" target="_blank">Activation Energy</a>
         </li>
       <li>
           <span class="post-date">2024-01-26:</span>
