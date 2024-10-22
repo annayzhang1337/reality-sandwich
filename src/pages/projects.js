@@ -5,12 +5,12 @@ export function renderProjects() {
         <div class="post-meta">Things I've Built</div>
         <div class="project-grid">
           <div class="project">
-            <h3>Project One</h3>
-            <p>Description of the first project...</p>
+            <h3>Crescent</h3>
+            <p>To come</p>
           </div>
-          <div class="project">
-            <h3>Project Two</h3>
-            <p>Description of the second project...</p>
+        <div class="project">
+            <h3>Disty</h3>
+            <p>To come</p>
           </div>
         </div>
       </article>

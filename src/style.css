@@ -77,6 +77,12 @@ article {
   margin-bottom: 1rem;
 }
 
+.post-meta-it {
+  color: var(--accent);
+  font-style: italic;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
 footer {
   margin-top: 4rem;
   padding-top: 1rem;
@@ -148,9 +154,22 @@ footer {
 }
 
 .post-list li {
-  margin-bottom: 2rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid var(--accent);
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.post-date {
+  color: #666;
+  margin-right: 0.5rem;
+}
+
+.post-list a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.post-list a:hover {
+  text-decoration: underline;
 }
 
 .project-grid {
@@ -172,4 +191,49 @@ footer {
 
 * {
   transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+.about-content {
+  margin: 2rem 0;
+}
+
+.about-list {
+  list-style: none; 
+  padding-left: 1.5rem;
+  font-family: var(--font-mono);
+
+}
+
+.about-list li {
+  position: relative;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.about-list li::before {
+  content: "•"; 
+  position: absolute;
+  left: -1.5rem;
+  color: #666; 
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.reality {
+  font-weight: bold;
+}
+
+.social-links {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-style: italic;
+}
+
+.social-link {
+  color: #333;
+  text-decoration: underline;
 }

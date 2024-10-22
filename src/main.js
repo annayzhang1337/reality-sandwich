@@ -1,11 +1,10 @@
 import './style.css'
-import { renderHome } from './pages/home'
 import { renderWriting } from './pages/writing'
 import { renderProjects } from './pages/projects'
 import { renderAbout } from './pages/about'
 
 const router = {
-  '/': renderHome,
+  '/': renderAbout,
   '/writing': renderWriting,
   '/projects': renderProjects,
   '/about': renderAbout
