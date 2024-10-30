@@ -4,6 +4,11 @@ export function renderWriting() {
       <h2 class="post-title">Writing</h2>
       <ul class="post-list">
       <li>
+          <span class="post-date">2024-10-29:</span>
+         <a href="https://medium.com/@anna-yutong-zhang/confession-of-an-un-qualified-cs-graduate-98f4adadf5d5" target="_blank">Confession of an Unqualified CS Graduate</a>
+        </li>
+      <li>
+      <li>
           <span class="post-date">2024-08-21:</span>
          <a href="https://medium.com/@anna-yutong-zhang/that-day-i-grew-up-e0da9d40bf8c" target="_blank">That Day I Grew Up</a>
         </li>
