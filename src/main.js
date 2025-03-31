@@ -2,15 +2,17 @@ import './style.css'
 import { renderWriting } from './pages/writing'
 import { renderProjects } from './pages/projects'
 import { renderAbout } from './pages/about'
+import { renderMemos } from './pages/memos'
 
 const router = {
   '/': renderAbout,
   '/writing': renderWriting,
   '/projects': renderProjects,
-  '/about': renderAbout
+  '/about': renderAbout,
+  '/memos': renderMemos
 }
 
-function handleRoute() {
+async function handleRoute() {
   const path = window.location.pathname
   const content = document.querySelector('main.content')
  
@@ -18,7 +20,12 @@ function handleRoute() {
   
   const renderFunction = router[path] || router['/']
   
-  content.innerHTML = renderFunction()
+  // Check if the render function is async
+  if (renderFunction.constructor.name === 'AsyncFunction') {
+    content.innerHTML = await renderFunction()
+  } else {
+    content.innerHTML = renderFunction()
+  }
 }
 
 function updateActiveNav(currentPath) {

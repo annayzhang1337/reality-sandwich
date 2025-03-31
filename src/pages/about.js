@@ -4,7 +4,7 @@ export function renderAbout() {
         <h2 class="post-title">Hi, I am Anna</h2>
         <div class="about-content">
           <ul class="about-list">
-            <li>Working on Recs Service at Amazon</li>
+            <li>Working on Recommendations Service at Amazon</li>
             <li>Born in Chongqing and raised in Shenzhen. Moved around a lot in the US.</li>
             <li>Currently living in Seattle, WA and enjoying the lakes and trees here.</li>
             <li>This is my thought dump, where I think and write about <span class="underline"> staying awake, staying entangled, and staying confused.</span> In short, about <span class="reality">eating reality sandwiches</span>.</li>

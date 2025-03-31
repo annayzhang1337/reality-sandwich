@@ -15,15 +15,20 @@
 }
 
 body {
-  font-family: var(--font-sans);
+  font-family: 'Helvetica Neue', Arial, sans-serif;
   line-height: 1.6;
-  color: var(--text-color);
-  max-width: 800px;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  max-width: 75%;
+  width: 75%;
   margin: 0 auto;
-  padding: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 header {
+  margin-top: 2rem;
   margin-bottom: 4rem;
   border-bottom: 1px solid var(--accent);
   padding-bottom: 1rem;
@@ -58,6 +63,8 @@ nav a:hover {
 
 .content {
   margin: 2rem 0;
+  width: 100%;
+  max-width: 100%;
 }
 
 
@@ -89,6 +96,8 @@ footer {
   border-top: 1px solid var(--accent);
   font-size: 0.9rem;
   color: var(--accent);
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 @media (max-width: 600px) {
@@ -237,4 +246,131 @@ footer {
 .social-link {
   color: #333;
   text-decoration: underline;
+}
+
+.memo-item {
+  margin-bottom: 2rem;
+}
+
+.memo-item.hidden {
+  display: none;
+}
+
+.memo-title {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.memo-date {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.memo-content {
+  line-height: 1.6;
+}
+
+.memo-content h1, 
+.memo-content h2, 
+.memo-content h3 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.memo-content p {
+  margin-bottom: 1rem;
+}
+
+.memo-content ul, 
+.memo-content ol {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.memo-content blockquote {
+  border-left: 3px solid #ccc;
+  padding-left: 1rem;
+  font-style: italic;
+  margin: 1rem 0;
+}
+
+.memo-content pre {
+  background: #f4f4f4;
+  padding: 1rem;
+  overflow-x: auto;
+  margin: 1rem 0;
+}
+
+.memo-content code {
+  background: #f4f4f4;
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+}
+
+/* Memo layout styles */
+.memos-layout {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.memos-sidebar {
+  flex: 0 0 250px;
+  border-right: 1px solid #eaeaea;
+  padding-right: 1.5rem;
+}
+
+.memos-content {
+  flex: 1;
+}
+
+.memo-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.memo-nav li {
+  margin-bottom: 0.5rem;
+}
+
+.memo-nav-link {
+  display: block;
+  padding: 0.5rem 0;
+  color: #333;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s ease;
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
+  max-width: 100%;
+  line-height: 1.3;
+}
+
+.memo-nav-link:hover {
+  color: #000;
+  border-bottom-color: #ccc;
+}
+
+.memo-nav-link.active {
+  font-weight: bold;
+  border-bottom-color: #333;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .memos-layout {
+    flex-direction: column;
+  }
+  
+  .memos-sidebar {
+    flex: 0 0 auto;
+    border-right: none;
+    border-bottom: 1px solid #eaeaea;
+    padding-right: 0;
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+  }
 }
