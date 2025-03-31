@@ -52,6 +52,13 @@ export async function renderMemos() {
   // Get the current memo slug from the URL hash, if any
   const currentSlug = window.location.hash.slice(1) || (memos.length > 0 ? memos[0].slug : '');
   
+  // Add the explanation line with the post-title class
+  const explanationHTML = `
+    <div class="memos-explanation">
+      <h2 class="post-title">My short-form, everyday thoughts</h2>
+    </div>
+  `;
+  
   // Generate sidebar navigation
   const sidebarHTML = `
     <div class="memos-sidebar">
@@ -79,6 +86,7 @@ export async function renderMemos() {
   `).join('');
 
   const result = `
+    ${explanationHTML}
     <article class="memos-container">
       <div class="memos-layout">
         ${sidebarHTML}
