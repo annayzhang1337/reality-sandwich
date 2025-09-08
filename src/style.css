@@ -10,27 +10,25 @@
   --text-color: #333;
   --background: #fff;
   --accent: #666;
-  --font-mono: 'Courier New', Courier, monospace;
-  --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: Times, serif;
+  --font-sans: Times, serif;
 }
 
 body {
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-  line-height: 1.6;
+  font-family: Times, serif;
+  line-height: 1.5;
   color: #333;
   margin: 0;
   padding: 0;
   max-width: 75%;
   width: 75%;
   margin: 0 auto;
-  padding-top: 2rem;
+  padding-top: 1rem;
 }
 
 header {
-  margin-top: 2rem;
-  margin-bottom: 4rem;
-  border-bottom: 1px solid var(--accent);
-  padding-bottom: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 h1 {
@@ -88,13 +86,6 @@ article {
   font-style: italic;
   font-size: 0.9rem;
   margin-bottom: 1rem;
-}
-footer {
-  margin-top: 4rem;
-  padding-top: 1rem;
-  border-top: 1px solid var(--accent);
-  font-size: 0.9rem;
-  color: var(--accent);
 }
 
 @media (max-width: 600px) {
@@ -231,26 +222,6 @@ footer {
   font-weight: bold;
 }
 
-.social-links {
-  margin-top: 2rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  font-style: italic;
-  /* font-family: var(--font-mono); */
-}
-
-.social-link {
-  color: #333;
-  text-decoration: underline;
-  display: inline-block;
-  width: fit-content;
-}
-
-.social-links.horizontal {
-  flex-direction: row;
-  gap: 1.5rem;
-}
 
 .memo-item {
   margin-bottom: 2rem;
@@ -376,5 +347,88 @@ footer {
     padding-right: 0;
     padding-bottom: 1rem;
     margin-bottom: 1.5rem;
+  }
+}
+
+/* New About Page Styles */
+.hero-name {
+  text-align: center;
+  margin: 3rem 0 2rem 0;
+}
+
+.hero-name h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  color: var(--text-color);
+  margin-bottom: 0;
+}
+
+.mission-statement {
+  text-align: center;
+  margin: 2rem 0 3rem 0;
+}
+
+.mission-statement h2 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: var(--text-color);
+  font-style: italic;
+}
+
+.about-section, .beliefs-section {
+  margin: 1.5rem 0;
+}
+
+.about-section h3, .beliefs-section h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+  color: var(--text-color);
+}
+
+.about-content p {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+
+.social-links {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.social-link {
+  color: var(--text-color);
+  text-decoration: none;
+  margin: 0 1rem;
+  font-size: 1rem;
+  display: inline;
+  white-space: nowrap;
+}
+
+.social-link:hover {
+  text-decoration: underline;
+}
+
+.beliefs-list {
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+}
+
+.beliefs-list li {
+  margin-bottom: 0.8rem;
+  line-height: 1.4;
+}
+
+@media (max-width: 600px) {
+  .hero-name h1 {
+    font-size: 2.5rem;
+  }
+  
+  .mission-statement h2 {
+    font-size: 1.2rem;
+  }
+  
+  .social-link {
+    margin: 0 0.5rem;
+    font-size: 0.9rem;
   }
 }

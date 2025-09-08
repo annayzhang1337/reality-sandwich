@@ -1,40 +1,27 @@
 export function renderWriting() {
   return `
     <article>
-      <h2 class="post-title">Writing</h2>
       <ul class="post-list">
       <li>
           <span class="post-date">2024-10-29:</span>
-         <a href="https://medium.com/@anna-yutong-zhang/confession-of-an-un-qualified-cs-graduate-98f4adadf5d5" target="_blank">Confession of an Unqualified CS Graduate</a>
+         <a href="https://annayutongzhang.substack.com/p/confession-of-an-unqualified-cs-graduate" target="_blank">Confession of an Unqualified CS Graduate</a>
         </li>
       <li>
-      <li>
-          <span class="post-date">2024-08-21:</span>
-         <a href="https://medium.com/@anna-yutong-zhang/that-day-i-grew-up-e0da9d40bf8c" target="_blank">That Day I Grew Up</a>
-        </li>
       <li>
           <span class="post-date">2024-07-13:</span>
-         <a href="https://medium.com/@anna-yutong-zhang/on-thinking-hard-510f662ebebf" target="_blank">On Thinking Hard</a>
-        </li>
-      <li>
-          <span class="post-date">2024-07-13:</span>
-         <a href="https://medium.com/@anna-yutong-zhang/whats-not-completed-9adeb07971c2" target="_blank">What's Not Completed</a>
-        </li>
-      <li>
-          <span class="post-date">2024-05-31:</span>
-         <a href="https://medium.com/@anna-yutong-zhang/liminal-730d3719621e" target="_blank">Liminal</a>
+         <a href="https://annayutongzhang.substack.com/p/on-thinking-hard" target="_blank">On Thinking Hard</a>
         </li>
       <li>
           <span class="post-date">2024-02-01:</span>
-         <a href="https://medium.com/@anna-yutong-zhang/what-would-you-do-if-you-couldnt-fail-c9db105e7a62" target="_blank">What Would You Do If You Couldn't Fail?</a>
+         <a href="https://annayutongzhang.substack.com/p/what-would-you-do-if-you-couldnt" target="_blank">What Would You Do If You Couldn't Fail?</a>
         </li>
       <li>
           <span class="post-date">2024-01-28:</span>
-         <a href="https://medium.com/@anna-yutong-zhang/activation-energy-5ebaf503fe62" target="_blank">Activation Energy</a>
+         <a href="https://annayutongzhang.substack.com/p/activation-energy2" target="_blank">Activation Energy</a>
         </li>
       <li>
           <span class="post-date">2024-01-26:</span>
-         <a href="https://medium.com/@anna-yutong-zhang/who-are-you-doing-it-for-80df7e5fb026" target="_blank">Who Are You Doing It For?</a>
+         <a href="https://annayutongzhang.substack.com/p/who-are-you-doing-it-for" target="_blank">Who Are You Doing It For?</a>
         </li>
       <li>
           <span class="post-date">2024-01-25:</span>
@@ -62,27 +49,23 @@ export function renderWriting() {
         </li>
       <li>
           <span class="post-date">2024-01-19:</span>
-         <a href="https://medium.com/@anna-yutong-zhang/higher-conviction-3d61098dfbb4" target="_blank">Higher Conviction</a>
+         <a href="https://annayutongzhang.substack.com/p/higher-conviction" target="_blank">Higher Conviction</a>
         </li>
       <li>
           <span class="post-date">2024-01-17:</span>
-         <a href="https://medium.com/@anna-yutong-zhang/on-taste-cc856b45e761" target="_blank">On Taste</a>
+         <a href="https://annayutongzhang.substack.com/p/on-taste" target="_blank">On Taste</a>
         </li>
       <li>
           <span class="post-date">2024-01-16:</span>
-         <a href="https://medium.com/@anna-yutong-zhang/building-systems-from-obsessions-2c524c8bc89e" target="_blank">Building Systems from Obsessions</a>
+         <a href="https://annayutongzhang.substack.com/p/building-systems-from-obsessions" target="_blank">Building Systems from Obsessions</a>
         </li>
       <li>
           <span class="post-date">2024-01-15:</span>
-         <a href="https://medium.com/@anna-yutong-zhang/resisting-academism-5969cb8055d7" target="_blank">Resisting Academism</a>
+         <a href="https://annayutongzhang.substack.com/p/resisting-academism" target="_blank">Resisting Academism</a>
         </li>
       <li>
           <span class="post-date">2024-01-14:</span>
-         <a href="https://medium.com/@anna-yutong-zhang/what-it-takes-fb938dea801a" target="_blank">What It Takes</a>
-        </li>
-      <li>
-          <span class="post-date">2024-01-11:</span>
-         <a href="https://medium.com/@anna-yutong-zhang/on-the-obstruction-of-views-a564d417d641" target="_blank">On the Obstruction of Views</a>
+         <a href="https://annayutongzhang.substack.com/p/what-it-takes" target="_blank">What It Takes</a>
         </li>
       <li>
           <span class="post-date">2024-01-08:</span>
@@ -90,7 +73,7 @@ export function renderWriting() {
         </li>
       <li>
           <span class="post-date">2023-12-30:</span>
-         <a href="https://medium.com/@anna-yutong-zhang/talent-trading-and-self-expression-a-cynics-perspective-a6585218e9ac" target="_blank">On Talent</a>
+         <a href="https://annayutongzhang.substack.com/p/on-talent" target="_blank">On Talent</a>
         </li>
       <li>
           <span class="post-date">2024-01-02:</span>
