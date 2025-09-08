@@ -392,13 +392,13 @@ article {
 
 .social-links {
   text-align: center;
-  margin: 2rem 0;
+  margin: 4rem 0;
 }
 
 .social-link {
   color: var(--text-color);
   text-decoration: none;
-  margin: 0 1rem;
+  margin: 0 1.5rem;
   font-size: 1rem;
   display: inline;
   white-space: nowrap;
