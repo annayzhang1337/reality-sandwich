@@ -1,7 +1,15 @@
 export function renderWriting() {
   return `
     <article>
+      <blockquote>
+        <p>I write to think. Sometimes about startups, sometimes about taste, sometimes about life. These essays are not polished products; they are working notes on the intersection of building, identity, and being human.</p>
+      </blockquote>
+
       <ul class="post-list">
+      <li>
+          <span class="post-date">2025-09-16:</span>
+         <a href="https://annayutongzhang.substack.com/p/to-everyone-who-has-touched-my-life" target="_blank">to everyone who has touched my life</a>
+        </li>
       <li>
           <span class="post-date">2024-10-29:</span>
          <a href="https://annayutongzhang.substack.com/p/confession-of-an-unqualified-cs-graduate" target="_blank">Confession of an Unqualified CS Graduate</a>

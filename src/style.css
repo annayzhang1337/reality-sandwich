@@ -69,6 +69,14 @@ article {
   margin-bottom: 3rem;
 }
 
+blockquote {
+  border-left: 3px solid #ccc;
+  padding-left: 1rem;
+  font-style: italic;
+  margin: 1rem 0;
+  color: #666;
+}
+
 .post-title {
   font-family: var(--font-mono);
   font-size: 1.2rem;
