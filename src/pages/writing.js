@@ -2,7 +2,7 @@ export function renderWriting() {
   return `
     <article>
       <blockquote>
-        <p>I write to think. Sometimes about startups, sometimes about taste, sometimes about life. These essays are not polished products; they are working notes on the intersection of building, identity, and being human.</p>
+        <p>I write to think. Sometimes about startups, sometimes about taste, sometimes about life.</p>
       </blockquote>
 
       <ul class="post-list">
