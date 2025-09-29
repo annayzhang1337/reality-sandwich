@@ -13,7 +13,7 @@ export function renderAbout() {
           <h3>Some Things I Believe</h3>
           <ul class="beliefs-list">
             <li><strong>Obsession is a Superpower.</strong> The best work comes from a relentless, almost irrational, need to solve a problem. Most of my life has been a process of learning how to aim this engine.</li>
-            <li><strong>Clarity is a Choice.</strong> The world is inherently ambiguous and chaotic. The job of a founder -- and a person -- is to create clarity through decisive action and radical honesty.</li>
+            <li><strong>Embrace the Mess.</strong> The world is not a clean, logical system to be optimized. It is a chaotic, beautiful, and often confusing soup of ideas and emotions. Breakthroughs come from having the courage to sit with the ambiguity, to stay entangled in the hard questions, and to allow the true, non-obvious insight to emerge from the mess.</li>
             <li><strong>You Must Write Your Own Narrative.</strong> If you do not define your own story, the world will happily write a smaller, simpler, and less interesting one for you.</li>
             <li><strong>The Best Moat is an Opinion.</strong> In a world of commoditized technology, the most defensible advantage is a unique, hard-won, and deeply-held worldview. Great products are not just code; they are philosophy embedded in software.</li>
             <li><strong>Human Stories are the Only Ones That Matter.</strong> Technology is not the end. It is a tool. The goal is not to optimize humanity, but to create more space for its messy, beautiful, and inefficient truths.</li>
