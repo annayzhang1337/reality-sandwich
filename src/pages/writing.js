@@ -7,6 +7,11 @@ export function renderWriting() {
 
       <ul class="post-list">
       <li>
+          <span class="post-date">2025-10-03:</span>
+         <a href="https://annayutongzhang.substack.com/p/to-create-is-to-desire" target="_blank">To create is to desire</a>
+        </li>
+      <li>
+      <li>
           <span class="post-date">2025-09-16:</span>
          <a href="https://annayutongzhang.substack.com/p/to-everyone-who-has-touched-my-life" target="_blank">to everyone who has touched my life</a>
         </li>
