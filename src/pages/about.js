@@ -3,7 +3,7 @@ export function renderAbout() {
       <article>
         <div class="about-section">
           <div class="about-content">
-            <p>I'm the co-founder & CEO of <a href="https://nessielabs.notion.site/" target="_blank">Nessie</a>, a YC-backed startup building personal AI for thought — turning conversations into knowledge that compounds.</p>
+            <p>I'm the co-founder & CEO of <a href="https://nessielabs.com" target="_blank">Nessie</a>, a YC-backed startup building personal AI for thought — turning conversations into knowledge that compounds.</p>
             <p>Previously, I engineered large-scale recommendation systems on Amazon's core Personalization team.</p>
             <p>I studied Computer Science at Yale, where I explored how narrative, identity, and technology shape how we think and who we become.</p>
             <p>I believe in building things that help people think and write their own stories — especially when life is messy.</p>
