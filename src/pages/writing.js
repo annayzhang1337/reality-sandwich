@@ -16,10 +16,6 @@ export function renderWriting() {
          <a href="https://annayutongzhang.substack.com/p/to-everyone-who-has-touched-my-life" target="_blank">to everyone who has touched my life</a>
         </li>
       <li>
-          <span class="post-date">2024-10-29:</span>
-         <a href="https://annayutongzhang.substack.com/p/confession-of-an-unqualified-cs-graduate" target="_blank">Confession of an Unqualified CS Graduate</a>
-        </li>
-      <li>
       <li>
           <span class="post-date">2024-07-13:</span>
          <a href="https://annayutongzhang.substack.com/p/on-thinking-hard" target="_blank">On Thinking Hard</a>

@@ -3,22 +3,22 @@ export function renderAbout() {
       <article>
         <div class="about-section">
           <div class="about-content">
-            <p>I am the co-founder and CEO of <a href="https://nessielabs.notion.site/" target="_blank">Nessie</a>, a YC-backed startup building personal AI to amplify human thought and action.</p>
-            <p>Previously, I was an engineer on Amazon's core Personalization team, developing ML-powered recommendation systems for billions of customers.</p>
-            <p>I graduated from Yale with a BS in Computer Science, where my interest focused on the intersection of narrative, identity, and technology.</p>
-            <p>I believe in building things. I believe in messy, complicated human stories. I believe in finding clarity in the chaos.</p>
+            <p>I'm the co-founder & CEO of <a href="https://nessielabs.notion.site/" target="_blank">Nessie</a>, a YC-backed startup building personal AI for thought — turning conversations into knowledge that compounds.</p>
+            <p>Previously, I engineered large-scale recommendation systems on Amazon's core Personalization team.</p>
+            <p>I studied Computer Science at Yale, where I explored how narrative, identity, and technology shape how we think and who we become.</p>
+            <p>I believe in building things that help people think and write their own stories — especially when life is messy.</p>
           </div>
         </div>
         <div class="beliefs-section">
           <h3>Some Things I Believe</h3>
           <ul class="beliefs-list">
-            <li><strong>Obsession is a Superpower.</strong> The best work comes from a relentless, almost irrational, need to solve a problem. Most of my life has been a process of learning how to aim this engine.</li>
-            <li><strong>Embrace the Mess.</strong> The world is not a clean, logical system to be optimized. It is a chaotic, beautiful, and often confusing soup of ideas and emotions. Breakthroughs come from having the courage to sit with the ambiguity, to stay entangled in the hard questions, and to allow the true, non-obvious insight to emerge from the mess.</li>
-            <li><strong>You Must Write Your Own Narrative.</strong> If you do not define your own story, the world will happily write a smaller, simpler, and less interesting one for you.</li>
-            <li><strong>The Best Moat is an Opinion.</strong> In a world of commoditized technology, the most defensible advantage is a unique, hard-won, and deeply-held worldview. Great products are not just code; they are philosophy embedded in software.</li>
-            <li><strong>Human Stories are the Only Ones That Matter.</strong> Technology is not the end. It is a tool. The goal is not to optimize humanity, but to create more space for its messy, beautiful, and inefficient truths.</li>
-            <li><strong>The Work is to See the World as It Is.</strong> ...and then have the courage to build the world as it should be.</li>
-            <li><strong>Don't Take Yourself Too Seriously.</strong> At the end of the day, it's all a beautiful, absurd, and <i>infinite</i> game. The ability to laugh at yourself is the final, and most important, form of freedom.</li>
+            <li><strong>Obsession is a superpower.</strong> The best work comes from a relentless, almost irrational need to solve a problem — the work is learning to aim it well.</li>
+            <li><strong>Embrace the mess.</strong> Breakthroughs come from sitting with ambiguity long enough for clarity to emerge.</li>
+            <li><strong>Write your own narrative.</strong> If you don't define your story, the world will write a smaller one for you.</li>
+            <li><strong>The best moat is an opinion.</strong> Great products are philosophy embedded in software.</li>
+            <li><strong>Human stories are the point.</strong> Technology is not the end — it's a tool to expand what makes us human.</li>
+            <li><strong>See the world as it is.</strong> Then build the version that should exist.</li>
+            <li><strong>Don't take yourself too seriously.</strong> At the end of the day, it's all a beautiful, absurd, infinite game. Laughter is the final form of freedom.</li>
           </ul>
         </div>
         
