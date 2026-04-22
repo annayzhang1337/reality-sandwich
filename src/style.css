@@ -7,70 +7,74 @@
 
 /* Variables */
 :root {
-  --text-color: #333;
+  --text-color: #1a1a1a;
   --background: #fff;
   --accent: #666;
-  --font-mono: Times, serif;
-  --font-sans: Times, serif;
+  --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 }
 
 body {
-  font-family: Times, serif;
-  line-height: 1.5;
-  color: #333;
+  font-family: var(--font-body);
+  line-height: 1.6;
+  color: var(--text-color);
   margin: 0;
   padding: 0;
-  max-width: 75%;
-  width: 75%;
+  max-width: 680px;
+  width: 100%;
   margin: 0 auto;
-  padding-top: 1rem;
+  padding: 1rem 1.5rem;
 }
 
 header {
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   margin-bottom: 2rem;
 }
 
 h1 {
-  font-family: var(--font-mono);
   font-size: 1.5rem;
-  margin-bottom: 0.5rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+  letter-spacing: -0.01em;
 }
 
 .subtitle {
   color: var(--accent);
   font-style: italic;
+  font-size: 0.95rem;
 }
 
 nav {
-  margin: 2rem 0;
+  margin: 1.5rem 0;
 }
 
 nav a {
   color: var(--text-color);
   text-decoration: none;
   margin-right: 1.5rem;
-  font-family: var(--font-mono);
 }
 
 nav a:hover {
   text-decoration: underline;
 }
 
-
 .content {
   margin: 2rem 0;
   width: 100%;
   max-width: 100%;
+  opacity: 1;
+  transition: opacity 0.2s ease;
 }
 
+.content.fade {
+  opacity: 0;
+}
 
 article {
   margin-bottom: 3rem;
 }
 
 blockquote {
-  border-left: 3px solid #ccc;
+  border-left: 3px solid #ddd;
   padding-left: 1rem;
   font-style: italic;
   margin: 1rem 0;
@@ -78,49 +82,33 @@ blockquote {
 }
 
 .post-title {
-  font-family: var(--font-mono);
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
   margin-bottom: 0.5rem;
 }
 
 .post-meta {
   color: var(--accent);
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   margin-bottom: 1rem;
 }
 
 .post-meta-it {
   color: var(--accent);
   font-style: italic;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   margin-bottom: 1rem;
 }
 
-@media (max-width: 600px) {
-  body {
-      padding: 1rem;
-  }
-  
-  nav a {
-      display: block;
-      margin-bottom: 0.5rem;
-  }
-}
-
-.nav-link.active {
-  text-decoration: underline;
-  opacity: 1;
-}
-
-
+/* Navigation */
 .nav-link {
   color: var(--text-color);
   text-decoration: none;
   margin-right: 1.5rem;
-  font-family: var(--font-mono);
   position: relative;
-  opacity: 0.8;
+  opacity: 0.6;
   transition: opacity 0.2s ease;
+  font-size: 0.95rem;
 }
 
 .nav-link:hover {
@@ -138,38 +126,82 @@ blockquote {
   bottom: -2px;
   left: 0;
   width: 100%;
-  height: 2px;
-  background-color: var(--accent);
+  height: 1.5px;
+  background-color: var(--text-color);
 }
 
-/* Page transitions */
-.content {
-  margin: 2rem 0;
-  opacity: 1;
-  transition: opacity 0.2s ease;
+/* Writing filters */
+.writing-filters {
+  margin-bottom: 1.5rem;
 }
 
-.content.fade {
-  opacity: 0;
+.filter-btn {
+  background: none;
+  border: 1px solid #ddd;
+  padding: 0.3rem 0.8rem;
+  margin-right: 0.5rem;
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  color: var(--accent);
+  cursor: pointer;
+  border-radius: 3px;
+  transition: all 0.15s ease;
 }
 
+.filter-btn:hover {
+  border-color: var(--text-color);
+  color: var(--text-color);
+}
+
+.filter-btn.active {
+  background: var(--text-color);
+  color: #fff;
+  border-color: var(--text-color);
+}
+
+/* Post tags */
+.post-tag {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.15rem 0.45rem;
+  border-radius: 2px;
+  margin-right: 0.4rem;
+  font-weight: 500;
+}
+
+.tag-nessie {
+  background: #e8f4f8;
+  color: #2a7a8c;
+}
+
+.tag-personal {
+  background: #f3f0eb;
+  color: #8a7a65;
+}
+
+/* Post list */
 .post-list {
   list-style: none;
   padding: 0;
 }
 
 .post-list li {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.6rem;
   line-height: 1.6;
+  display: flex;
+  align-items: baseline;
 }
 
 .post-date {
-  color: #666;
+  color: #999;
   margin-right: 0.5rem;
+  font-size: 0.85rem;
+  flex-shrink: 0;
 }
 
 .post-list a {
-  color: #0066cc;
+  color: var(--text-color);
   text-decoration: none;
 }
 
@@ -177,6 +209,7 @@ blockquote {
   text-decoration: underline;
 }
 
+/* Projects */
 .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -185,8 +218,9 @@ blockquote {
 }
 
 .project {
-  border: 1px solid var(--accent);
+  border: 1px solid #ddd;
   padding: 1.5rem;
+  border-radius: 4px;
   transition: transform 0.2s ease;
 }
 
@@ -194,43 +228,56 @@ blockquote {
   transform: translateY(-2px);
 }
 
-* {
-  transition: color 0.2s ease, background-color 0.2s ease;
-}
-
+/* About */
 .about-content {
-  margin: 2rem 0;
+  margin: 1.5rem 0;
 }
 
-.about-list {
-  list-style: none; 
-  padding-left: 1.5rem;
-  /* font-family: var(--font-mono); */
-
+.about-content p {
+  margin-bottom: 1rem;
+  line-height: 1.7;
 }
 
-.about-list li {
-  position: relative;
-  margin-bottom: 1.5rem;
-  line-height: 1.6;
+.about-section, .beliefs-section {
+  margin: 1.5rem 0;
 }
 
-.about-list li::before {
-  content: "•"; 
-  position: absolute;
-  left: -1.5rem;
-  color: #666; 
+.about-section h3, .beliefs-section h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--text-color);
 }
 
-.underline {
+.social-links {
+  text-align: center;
+  margin: 2.5rem 0;
+}
+
+.social-link {
+  color: var(--accent);
+  text-decoration: none;
+  margin: 0 1rem;
+  font-size: 0.9rem;
+}
+
+.social-link:hover {
+  color: var(--text-color);
   text-decoration: underline;
 }
 
-.reality {
-  font-weight: bold;
+.beliefs-list {
+  margin-top: 0.5rem;
+  padding-left: 1.2rem;
 }
 
+.beliefs-list li {
+  margin-bottom: 0.7rem;
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
 
+/* Memo styles */
 .memo-item {
   margin-bottom: 2rem;
 }
@@ -245,17 +292,17 @@ blockquote {
 }
 
 .memo-date {
-  font-size: 0.9rem;
-  color: #666;
+  font-size: 0.85rem;
+  color: #999;
   margin-bottom: 1rem;
 }
 
 .memo-content {
-  line-height: 1.6;
+  line-height: 1.7;
 }
 
-.memo-content h1, 
-.memo-content h2, 
+.memo-content h1,
+.memo-content h2,
 .memo-content h3 {
   margin-top: 1rem;
   margin-bottom: 0.5rem;
@@ -265,33 +312,35 @@ blockquote {
   margin-bottom: 1rem;
 }
 
-.memo-content ul, 
+.memo-content ul,
 .memo-content ol {
   margin-left: 1.5rem;
   margin-bottom: 1rem;
 }
 
 .memo-content blockquote {
-  border-left: 3px solid #ccc;
+  border-left: 3px solid #ddd;
   padding-left: 1rem;
   font-style: italic;
   margin: 1rem 0;
 }
 
 .memo-content pre {
-  background: #f4f4f4;
+  background: #f6f6f6;
   padding: 1rem;
   overflow-x: auto;
   margin: 1rem 0;
+  border-radius: 4px;
 }
 
 .memo-content code {
-  background: #f4f4f4;
+  background: #f6f6f6;
   padding: 0.2rem 0.4rem;
   border-radius: 3px;
+  font-size: 0.9em;
 }
 
-/* Memo layout styles */
+/* Memo layout */
 .memos-layout {
   display: flex;
   gap: 2rem;
@@ -299,8 +348,8 @@ blockquote {
 }
 
 .memos-sidebar {
-  flex: 0 0 250px;
-  border-right: 1px solid #eaeaea;
+  flex: 0 0 220px;
+  border-right: 1px solid #eee;
   padding-right: 1.5rem;
 }
 
@@ -320,123 +369,64 @@ blockquote {
 
 .memo-nav-link {
   display: block;
-  padding: 0.5rem 0;
-  color: #333;
+  padding: 0.4rem 0;
+  color: var(--accent);
   text-decoration: none;
   border-bottom: 1px solid transparent;
-  transition: all 0.2s ease;
-  white-space: normal;
-  overflow: visible;
-  text-overflow: clip;
-  max-width: 100%;
+  transition: all 0.15s ease;
   line-height: 1.3;
+  font-size: 0.9rem;
 }
 
 .memo-nav-link:hover {
-  color: #000;
-  border-bottom-color: #ccc;
+  color: var(--text-color);
 }
 
 .memo-nav-link.active {
-  font-weight: bold;
-  border-bottom-color: #333;
+  font-weight: 600;
+  color: var(--text-color);
+  border-bottom-color: var(--text-color);
 }
 
-/* Responsive adjustments */
+/* Responsive */
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+  }
+
+  nav a {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  .post-list li {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.15rem;
+    margin-bottom: 1rem;
+  }
+
+  .post-list li .post-date {
+    margin-right: 0;
+  }
+
+  .social-link {
+    margin: 0 0.5rem;
+    font-size: 0.85rem;
+  }
+}
+
 @media (max-width: 768px) {
   .memos-layout {
     flex-direction: column;
   }
-  
+
   .memos-sidebar {
     flex: 0 0 auto;
     border-right: none;
-    border-bottom: 1px solid #eaeaea;
+    border-bottom: 1px solid #eee;
     padding-right: 0;
     padding-bottom: 1rem;
     margin-bottom: 1.5rem;
-  }
-}
-
-/* New About Page Styles */
-.hero-name {
-  text-align: center;
-  margin: 3rem 0 2rem 0;
-}
-
-.hero-name h1 {
-  font-size: 4rem;
-  font-weight: bold;
-  color: var(--text-color);
-  margin-bottom: 0;
-}
-
-.mission-statement {
-  text-align: center;
-  margin: 2rem 0 3rem 0;
-}
-
-.mission-statement h2 {
-  font-size: 1.5rem;
-  font-weight: normal;
-  color: var(--text-color);
-  font-style: italic;
-}
-
-.about-section, .beliefs-section {
-  margin: 1.5rem 0;
-}
-
-.about-section h3, .beliefs-section h3 {
-  font-size: 1.3rem;
-  margin-bottom: 1.5rem;
-  color: var(--text-color);
-}
-
-.about-content p {
-  margin-bottom: 1rem;
-  line-height: 1.7;
-}
-
-.social-links {
-  text-align: center;
-  margin: 2rem 0;
-}
-
-.social-link {
-  color: var(--text-color);
-  text-decoration: none;
-  margin: 0 1.5rem;
-  font-size: 1rem;
-  display: inline;
-  white-space: nowrap;
-}
-
-.social-link:hover {
-  text-decoration: underline;
-}
-
-.beliefs-list {
-  margin-top: 1rem;
-  padding-left: 1.5rem;
-}
-
-.beliefs-list li {
-  margin-bottom: 0.8rem;
-  line-height: 1.4;
-}
-
-@media (max-width: 600px) {
-  .hero-name h1 {
-    font-size: 2.5rem;
-  }
-  
-  .mission-statement h2 {
-    font-size: 1.2rem;
-  }
-  
-  .social-link {
-    margin: 0 0.5rem;
-    font-size: 0.9rem;
   }
 }
