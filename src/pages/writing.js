@@ -8,6 +8,11 @@ export function renderWriting() {
       </div>
 
       <ul class="post-list">
+        <li data-category="personal">
+          <span class="post-tag tag-personal">personal</span>
+          <span class="post-date">2026-04-22:</span>
+          <a href="https://annayutongzhang.substack.com/p/build-for-the-edge" target="_blank">Build for the Edge</a>
+        </li>
         <li data-category="nessie">
           <span class="post-tag tag-nessie">nessie</span>
           <span class="post-date">2026-04-20:</span>
