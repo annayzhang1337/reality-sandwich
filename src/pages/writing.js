@@ -11,7 +11,7 @@ export function renderWriting() {
         <li data-category="nessie">
           <span class="post-tag tag-nessie">nessie</span>
           <span class="post-date">2026-05-06:</span>
-          <a href="https://www.linkedin.com/posts/anna-zhang-y_we-replaced-posthog-with-an-ai-agent-posthog-activity-7457915324642799616-z4Oj/" target="_blank">We Replaced PostHog with an AI Agent</a>
+          <a href="https://x.com/anna_y_zhang/status/2052619215270715433" target="_blank">We Replaced PostHog with an AI Agent</a>
         </li>
         <li data-category="nessie">
           <span class="post-tag tag-nessie">nessie</span>
