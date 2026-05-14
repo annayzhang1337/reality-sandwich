@@ -35,6 +35,11 @@ export function renderWriting() {
         </li>
         <li data-category="personal">
           <span class="post-tag tag-personal">personal</span>
+          <span class="post-date">2024-10-30:</span>
+          <a href="https://annayutongzhang.substack.com/p/confession-of-an-unqualified-cs-graduate" target="_blank">Confession of an Unqualified CS Graduate</a>
+        </li>
+        <li data-category="personal">
+          <span class="post-tag tag-personal">personal</span>
           <span class="post-date">2024-07-13:</span>
           <a href="https://annayutongzhang.substack.com/p/on-thinking-hard" target="_blank">On Thinking Hard</a>
         </li>
