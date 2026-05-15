@@ -25,6 +25,11 @@ export function renderWriting() {
         </li>
         <li data-category="personal">
           <span class="post-tag tag-personal">personal</span>
+          <span class="post-date">2026-05-14:</span>
+          <a href="https://x.com/anna_y_zhang/status/2055104044725928077" target="_blank">Surfing Uncertainty</a>
+        </li>
+        <li data-category="personal">
+          <span class="post-tag tag-personal">personal</span>
           <span class="post-date">2025-10-03:</span>
           <a href="https://annayutongzhang.substack.com/p/to-create-is-to-desire" target="_blank">To create is to desire</a>
         </li>
