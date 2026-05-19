@@ -8,6 +8,11 @@ export function renderWriting() {
       </div>
 
       <ul class="post-list">
+        <li data-category="personal">
+          <span class="post-tag tag-personal">personal</span>
+          <span class="post-date">2026-05-14:</span>
+          <a href="https://x.com/anna_y_zhang/status/2055104044725928077" target="_blank">Surfing Uncertainty</a>
+        </li>
         <li data-category="nessie">
           <span class="post-tag tag-nessie">nessie</span>
           <span class="post-date">2026-05-06:</span>
@@ -22,11 +27,6 @@ export function renderWriting() {
           <span class="post-tag tag-nessie">nessie</span>
           <span class="post-date">2026-04-20:</span>
           <a href="https://x.com/anna_y_zhang/status/2046296928242254329" target="_blank">Why We Killed Our Own Product - Twice</a>
-        </li>
-        <li data-category="personal">
-          <span class="post-tag tag-personal">personal</span>
-          <span class="post-date">2026-05-14:</span>
-          <a href="https://x.com/anna_y_zhang/status/2055104044725928077" target="_blank">Surfing Uncertainty</a>
         </li>
         <li data-category="personal">
           <span class="post-tag tag-personal">personal</span>
@@ -125,11 +125,6 @@ export function renderWriting() {
         </li>
         <li data-category="personal">
           <span class="post-tag tag-personal">personal</span>
-          <span class="post-date">2023-12-30:</span>
-          <a href="https://annayutongzhang.substack.com/p/on-talent" target="_blank">On Talent</a>
-        </li>
-        <li data-category="personal">
-          <span class="post-tag tag-personal">personal</span>
           <span class="post-date">2024-01-02:</span>
           <a href="https://medium.com/@anna-yutong-zhang/stop-chasing-techniques-758f5c269fdd" target="_blank">Stop Chasing Techniques</a>
         </li>
@@ -142,6 +137,11 @@ export function renderWriting() {
           <span class="post-tag tag-personal">personal</span>
           <span class="post-date">2024-01-01:</span>
           <a href="https://medium.com/@anna-yutong-zhang/the-future-is-now-fcdf738ef6b0" target="_blank">The Future is Now</a>
+        </li>
+        <li data-category="personal">
+          <span class="post-tag tag-personal">personal</span>
+          <span class="post-date">2023-12-30:</span>
+          <a href="https://annayutongzhang.substack.com/p/on-talent" target="_blank">On Talent</a>
         </li>
         <li data-category="personal">
           <span class="post-tag tag-personal">personal</span>
