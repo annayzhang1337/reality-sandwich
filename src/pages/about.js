@@ -13,11 +13,11 @@ export function renderAbout() {
           <h3>Some Things I Believe</h3>
           <ul class="beliefs-list">
             <li><strong>Obsession is a superpower.</strong> The best work comes from a relentless, almost irrational need to solve a problem - the work is learning to aim it well.</li>
-            <li><strong>Embrace the mess.</strong> Breakthroughs come from sitting with ambiguity long enough for clarity to emerge.</li>
-            <li><strong>Write your own narrative.</strong> If you don't define your story, the world will write a smaller one for you.</li>
+            <li><strong>Surf the uncertainty.</strong> The breakthroughs don't come from resolving ambiguity - they come from learning to stay in it.</li>
+            <li><strong>You are what you do.</strong> Identity is forged through action, not the other way around. You don't "be" and then "do."</li>
             <li><strong>The best moat is an opinion.</strong> Great products are philosophy embedded in software.</li>
-            <li><strong>Human stories are the point.</strong> Technology is not the end - it's a tool to expand what makes us human.</li>
-            <li><strong>See the world as it is.</strong> Then build the version that should exist.</li>
+            <li><strong>Stay embodied.</strong> A mind that outruns the body loses authority over itself. Build things that keep people grounded, not things that erase how they think.</li>
+            <li><strong>Kill your darlings.</strong> The real problem is never the first one you see. Keep moving from symptom to root cause, even when it means throwing away what you built.</li>
             <li><strong>Don't take yourself too seriously.</strong> At the end of the day, it's all a beautiful, absurd, infinite game. Laughter is the final form of freedom.</li>
           </ul>
         </div>
