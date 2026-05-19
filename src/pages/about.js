@@ -12,7 +12,7 @@ export function renderAbout() {
         <div class="beliefs-section">
           <h3>Some Things I Believe</h3>
           <ul class="beliefs-list">
-            <li><strong>Obsession is a superpower.</strong> The best work comes from a relentless, almost irrational need to solve a problem - the work is learning to aim it well.</li>
+            <li><strong>Follow the obsession.</strong> The best things get built by people who can't stop thinking about the problem, not people who picked the most rational one.</li>
             <li><strong>Surf the uncertainty.</strong> The breakthroughs don't come from resolving ambiguity - they come from learning to stay in it.</li>
             <li><strong>You are what you do.</strong> Identity is forged through action, not the other way around. You don't "be" and then "do."</li>
             <li><strong>The best moat is an opinion.</strong> Great products are philosophy embedded in software.</li>
